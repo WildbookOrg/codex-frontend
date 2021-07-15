@@ -15,7 +15,7 @@ import Text from './Text';
 function Menu({ labelId, schema, themeColor }) {
   const { data } = useSiteSettings();
   return (
-    <MenuList style={{ margin: '0 20px' }}>
+    <MenuList class="medium-resize" style={{ margin: '0 20px' }}>
       <MenuItem>
         <Text
           component="h6"

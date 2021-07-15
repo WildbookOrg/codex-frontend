@@ -9,9 +9,19 @@ const accountUnauthenticated = [
     href: '/request',
     external: false,
   },
+  {
+    id: 'HOME',
+    href: '/',
+    external: false,
+  },
 ];
 
 const accountAuthenticated = [
+  {
+    id: 'HOME',
+    href: '/',
+    external: false,
+  },
   {
     id: 'INDIVIDUALS',
     href: '/individuals',
@@ -22,16 +32,16 @@ const accountAuthenticated = [
     href: '/sightings',
     external: false,
   },
-  {
-    id: 'ORGANIZATIONS',
-    href: '/orgs',
-    external: false,
-  },
-  {
-    id: 'PROJECTS',
-    href: '/projects',
-    external: false,
-  },
+  // {
+  //   id: 'ORGANIZATIONS',
+  //   href: '/orgs',
+  //   external: false,
+  // },
+  // {
+  //   id: 'PROJECTS',
+  //   href: '/projects',
+  //   external: false,
+  // },
 ];
 
 const resources = [
@@ -58,11 +68,11 @@ const contribute = [
     href: '/report',
     external: false,
   },
-  {
-    id: 'ADOPT',
-    href: '/adopt',
-    external: false,
-  },
+  // {
+  //   id: 'ADOPT',
+  //   href: '/adopt',
+  //   external: false,
+  // },
   {
     id: 'DONATE',
     href: 'https://wildme.org/#/donate',

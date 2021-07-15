@@ -9,3 +9,9 @@
 .MuiTimelineItem-missingOppositeContent:before {
   flex: unset !important;
 }
+
+@media screen and (min-width: 703px) and (max-width: 900px) {
+  .medium-resize {
+    width: 300px;
+  }
+}
